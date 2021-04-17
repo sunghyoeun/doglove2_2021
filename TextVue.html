@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+
+    <body>
+        <div id ="app">{{message}}</div>
+
+        <script src = "https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+        <script>
+            const myApp = new Vue ({
+                el: '#app', //el (DOM element 의미) :  HTML에서 id = "app"으로 접근 필요
+
+                data: {
+                    message: 'Hello Vue!',
+                },
+            });
+        </script>
+    </body>
+</html>
